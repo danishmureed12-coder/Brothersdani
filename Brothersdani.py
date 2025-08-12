@@ -148,7 +148,7 @@ def menu():
     if select == '1':
         file()
     elif select == '2':
-        randm()
+        import random()
     elif select == '3':
         os.system('xdg-open https://chat.whatsapp.com/DVV2BR7cngG6Bljs5TS0YM?mode=ac_t')
         menu()
@@ -528,4 +528,5 @@ def randm(ids, psd):
         return
         
 if __name__ == '__main__':
-    menu()
+def menu():
+    pass
