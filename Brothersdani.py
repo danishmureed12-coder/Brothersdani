@@ -148,7 +148,7 @@ def menu():
     if select == '1':
         file()
     elif select == '2':
-        import random()
+    random()
     elif select == '3':
         os.system('xdg-open https://chat.whatsapp.com/DVV2BR7cngG6Bljs5TS0YM?mode=ac_t')
         menu()
