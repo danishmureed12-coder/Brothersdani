@@ -527,7 +527,7 @@ def randm(ids, psd):
     except Exception as e:
         return
         
-if _name_ == '_main_':
+if __name__ == '_main_':
     menu()
     print('\x1b[38;5;46m[\x1b[1;97m=\x1b[38;5;46m] INSTALLING FUTURES ')
     os.system('espeak -a 300 "INSTALLING FUTURES ,"')
